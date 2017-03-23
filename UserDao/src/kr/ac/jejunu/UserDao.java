@@ -9,7 +9,7 @@ public class UserDao {
     public User get(Long id) throws ClassNotFoundException, SQLException {
         Connection connection = getConnection();
 
-        PreparedStatement preparedStatement = connection.prepareStatement("select * from userinfo where id = ?");
+        PreparedStatement preparedStatement = connection.prepareStatement("select * from user where id = ?");
         preparedStatement.setLong(1, id);
         ResultSet resultSet = preparedStatement.executeQuery();
 
@@ -30,7 +30,7 @@ public class UserDao {
     public Long add(User user) throws ClassNotFoundException, SQLException {
         Connection connection = getConnection();
 
-        PreparedStatement preparedStatement = connection.prepareStatement("insert into userinfo(name, password) VALUES (?,?)");
+        PreparedStatement preparedStatement = connection.prepareStatement("insert into user(name, password) VALUES (?,?)");
         preparedStatement.setString(1, user.getName());
         preparedStatement.setString(2, user.getPassword());
         preparedStatement.executeUpdate();
@@ -50,6 +50,6 @@ public class UserDao {
     private Connection getConnection() throws ClassNotFoundException, SQLException {
         Class.forName("com.mysql.jdbc.Driver");
 //        return DriverManager.getConnection("jdbc:mysql://localhost/jeju?characterEncoding=utf-8", "root", "jejupw");
-        return DriverManager.getConnection("jdbc:mysql://localhost/", "root", "w3jufg)JuU5I");
+        return DriverManager.getConnection("jdbc:mysql://localhost:3306/portal", "root", "4693");
     }
 }
