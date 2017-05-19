@@ -1,0 +1,57 @@
+<HTML>
+<HEAD>
+<TITLE>미인증 알림 페이지</TITLE>
+<link rel="stylesheet" href="style.css" type="text/css">
+</HEAD>
+<BODY background="user_img/msgbg.gif" LEFTMARGIN=0 TOPMARGIN=0 MARGINWIDTH=0 MARGINHEIGHT=0 >
+	<table CELLPADDING=0 CELLSPACING=0 align="center" width=788 height=520> 
+			<tr>
+				<td style="padding-top:48" valign="top" height=39><img src="user_img/msg_top.gif" border="0"><table border=0 width=788 height=520 valign="top" cellpadding=0 cellspacing=0>
+					<tr> 
+						<td width="262" valign="top"><img src="user_img/msg_clip.gif"></td>
+						<td colspan=2 valign="top"><img src="user_img/msg_logo.gif" border="0"></td>
+					</tr>
+					<tr> 
+						<td rowspan="2" valign="top" bgcolor="#FFFFFF" height=379><img src="user_img/msg_leftimg.gif"></td>
+						<td colspan=2 valign="top" bgcolor="#FFFFFF"><img src="user_img/msg_title.gif"></td>
+					</tr>
+					<tr> 
+						<td width="158" valign="top" bgcolor="#FFFFFF"><img src="user_img/msg_ctitle.gif" border="0"></td>
+						<td width="368" valign="top" bgcolor="#FFFFFF" class=k3>
+							<table width="350" valign="top" align="left" bgcolor="#FFFFFF" class=k3 border="0">
+								<tr>
+									<td>
+										<strong><font color="red">네트워크를 처음 사용한 사용자 입니다.</font><br>IP신청 후 사용하여 주시기 바랍니다.</strong><br><br>
+<strong>정상적인 인터넷 사용 및 문의사항은 정보통신원 시스템네트워크실로 연락주시면 조치해 드리겠습니다.</strong><br>
+<p> <strong>아라캠퍼스 : 754-4683 , 4684</strong> <br>
+<p> <strong>사라캠퍼스 : 754-4736</strong><br>
+<p> - 안정적인 인터넷 서비스를 제공하고자 네트웍 환경을 무단으로 변경할 경우 미인증 사용자가되어 인터넷 사용이 제한됩니다.<br>
+<br>
+- IP 신청 후 인증 메시지를 받으신 뒤에 네트웍 환경을 설정하여 사용하시면 됩니다.<br>
+<br>
+- 미인증 사용자가 인증을 받은 경우 반드시 Explorer 도구 - 인터넷옵션에서 '쿠키삭제/파일삭제' 후 컴퓨터를 재부팅하여 사용하셔야 합니다.									</td>
+								</tr>
+								<tr>
+									<td height="10"></td>
+								</tr>
+								<tr>
+									<td>
+										<!--
+										<img src="user_img/userreg_ip.gif" onclick="window.open('request/request_popup.php?type=0','','width=553,height=414,scrollbars=no');" style="cursor:hand">&nbsp;
+										<img src="user_img/userreg_mac.gif" onclick="window.open('request/request_popup.php?type=1','','width=553,height=414,scrollbars=no');" style="cursor:hand">
+										-->
+										<a href="https://ipmen.jejunu.ac.kr/"><img src="user_img/ipunuser.gif" style="cursor:hand" border="0"></a>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+					<tr>
+						<td colspan=3 valign="top"><img src="user_img/msg_copyright.gif"></td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+</BODY>
+</HTML>
